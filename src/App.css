@@ -36,3 +36,63 @@
     transform: rotate(360deg);
   }
 }
+
+.app {
+  background-color: orange;
+  color: blue;
+ 
+
+}
+.header {
+        font-size: 50px;
+        text-decoration: underline;
+        margin: 0 auto;
+        text-align: center;
+        /* text-shadow: black 2px 2px 5px; */
+
+}
+
+.characterBox {
+  border: 5px solid black;
+  width: 200px;
+  height: auto;
+  color: orange;
+  background-color: blue;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.nameForm {
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 200px;
+}
+.add {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.update {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.delete {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.characters {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding: 10px;
+justify-content: center;
+text-align: center;
+}
